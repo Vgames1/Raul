@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raúl's Journey</title>
+    <link rel="icon" href="vgameswhite.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <a href="https://vgames1.github.io" target="_blank">
+            <img src="vgameswhite.png" alt="VGames Logo" class="logo">
+        </a>
+        <h1>Raúl's Journey</h1>
+        <button id="playButton">Play</button>
+    </div>
+    <div id="gameContainer" style="display:none;">
+        <img id="raulImage" src="Raúl Andujar.webp" alt="Raúl Andujar">
+        <div id="story"></div>
+        <div id="choices"></div>
+    </div>
+    <div id="codeModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Enter the encrypted code to proceed:</p>
+            <input type="text" id="codeInput" placeholder="Enter Encrypted Code">
+            <button id="submitCode">Submit</button>
+        </div>
+    </div>
+    <script src="raul.js"></script>
+</body>
+</html>
